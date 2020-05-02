@@ -1,8 +1,8 @@
 # dsfaf
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](dasfaf)
-[![GitHub Contribution](https://img.shields.io/badge/Contributions--yellow.svg)](dasfaf)
-[![GitHub Project Name](https://img.shields.io/badge/Project-Name-dsfaf-pink.svg)](dasfaf)
+[![GitHub Contribution](https://img.shields.io/badge/Contributing--yellow.svg)](dasfaf)
+[![GitHub Installation](https://img.shields.io/badge/Installation-dsfaf--pink.svg)](dasfaf)
 
 ## Description
 
