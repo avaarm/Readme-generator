@@ -47,13 +47,7 @@ inquirer
       type: "list",
       message: "What kind of license should your project have?",
       name: "license",
-      choices: [
-        "MIT",
-       "APACHE 2.0", 
-       "GPL 3.0", 
-       "BSD 3", 
-       "None"
-    ]
+      choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
     },
     {
       type: "input",
@@ -80,7 +74,6 @@ inquirer
     }
   ])
 
-
   .then(data => {
     const {
       githubUsername,
@@ -96,60 +89,60 @@ inquirer
     } = data;
     const template = `
 
-    # ${data.projectName}
-    [![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)](${data.projectURL})
-    [![GitHub Contribution](https://img.shields.io/badge/Contributions-${data.repoContribute}-yellow.svg)](${data.projectURL})
-    [![GitHub Project Name](https://img.shields.io/badge/Project-Name-${data.projectName}-pink.svg)](${data.projectURL})
+# ${data.projectName}
+[![GitHub License](https://img.shields.io/badge/license-${data.license}-blue.svg)](#license)
+[![GitHub Contributing](https://img.shields.io/badge/Contributing-${data.repoContribute}-yellow.svg)](${data.projectURL})
+[![GitHub Tests](https://img.shields.io/badge/tests-${data.tests}-pink.svg)](${data.projectURL})
    
-    ## Description
+## Description
     
-    ${data.projectDescribe}
+${data.projectDescribe}
     
-    ## Table of Contents 
+## Table of Contents 
     
-    * [Installation](#installation)
+* [Installation](#installation)
 
-    * [Usage](#usage)
+* [Usage](#usage)
     
-    * [License](#license)
+* [License](#License)
     
-    * [Contributing](#contributing)
+* [Contributing](#contributing)
     
-    * [Tests](#tests)
+* [Tests](#tests)
     
-    * [Questions](#questions)
+* [Questions](#questions)
     
-    ## Installation
+## Installation
     
-    To install necessary dependencies, run the following command:
-    
-    
-    ${data.dependencies}
+To install necessary dependencies, run the following command:
     
     
-    ## Usage
+${data.dependencies}
     
-    ${data.projectDescribe}
     
-    ## License
+## Usage
     
-    This project is licensed under the ${data.license} license.
+${data.projectDescribe}
+    
+## License
+    
+This project is licensed under the ${data.license} license.
       
-    ## Contributing
+## Contributing
     
-    ${data.repoContribute}
+${data.repoContribute}
     
-    ## Tests
+## Tests
     
-    To run tests, run the following command:
-    
-    
-    ${data.tests}
+To run tests, run the following command:
     
     
-    ## Questions
+${data.tests}
     
-    If you have any questions about the repo, open an issue or contact [${data.githubUsername}](https://github.com/avaarm) directly at ${data.githubEmail}.
+    
+## Questions
+    
+If you have any questions about the repo, open an issue or contact [${data.githubUsername}](https://github.com/avaarm) directly at ${data.githubEmail}.
         
 `;
     writeFileAsync("README.md", template).catch(err => {

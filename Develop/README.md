@@ -1,56 +1,57 @@
 
-    # dsfaf
-    [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](dasfaf)
-    [![GitHub Contribution](https://img.shields.io/badge/Contributions--yellow.svg)](dasfaf)
-    [![GitHub Project Name](https://img.shields.io/badge/Project-Name-dsfaf-pink.svg)](dasfaf)
-   
-    ## Description
-    
-    sdfadf
-    
-    ## Table of Contents 
-    
-    * [Installation](#installation)
 
-    * [Usage](#usage)
+# Readme-generator
+[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](#license)
+[![GitHub Contributing](https://img.shields.io/badge/Contributing-Email me for questions about contributing.-yellow.svg)](https://github.com/avaarm/Readme-generator#installation)
+[![GitHub Tests](https://img.shields.io/badge/tests-npm test-pink.svg)](https://github.com/avaarm/Readme-generator#installation)
+   
+## Description
     
-    * [License](#license)
+This is a project using the command-line interface to cr
     
-    * [Contributing](#contributing)
+## Table of Contents 
     
-    * [Tests](#tests)
+* [Installation](#installation)
+
+* [Usage](#usage)
     
-    * [Questions](#questions)
+* [License](#License)
     
-    ## Installation
+* [Contributing](#contributing)
     
-    To install necessary dependencies, run the following command:
+* [Tests](#tests)
+    
+* [Questions](#questions)
+    
+## Installation
+    
+To install necessary dependencies, run the following command:
     
     
-    sfdafa
+npm i
     
     
-    ## Usage
+## Usage
     
-    sdfadf
+This is a project using the command-line interface to cr
     
-    ## License
+## License
     
-    This project is licensed under the MIT license.
+This project is licensed under the MIT license.
       
-    ## Contributing
+## Contributing
+    
+Email me for questions about contributing.
+    
+## Tests
+    
+To run tests, run the following command:
     
     
-    
-    ## Tests
-    
-    To run tests, run the following command:
+npm test
     
     
-    npm test
+## Questions
     
-    
-    ## Questions
-    
-    If you have any questions about the repo, open an issue or contact [sdfa](https://github.com/avaarm) directly at sdafsda.
+If you have any questions about the repo, open an issue or contact [avaarm](https://github.com/avaarm) directly at avaarm95@gmail.com.
         
