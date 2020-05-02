@@ -1,9 +1,8 @@
 
 
 # Readme-generator
-[![GitHub License](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)](#license)
-[![GitHub Contributing](https://img.shields.io/badge/Contributing-Email me for questions about contributing.-yellow.svg)](https://github.com/avaarm/Readme-generator#installation)
-[![GitHub Tests](https://img.shields.io/badge/tests-npm test-pink.svg)](https://github.com/avaarm/Readme-generator#installation)
+[![GitHub License](https://img.shields.io/badge/license-APACHE-2.0-blue.svg)](#license)
+[![GitHub Tests](https://img.shields.io/badge/tests-npm-test-pink.svg)](https://github.com/avaarm/Readme-generator#installation)
    
 ## Description
     
