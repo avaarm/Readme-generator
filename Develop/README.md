@@ -1,13 +1,13 @@
 
 
-# Readme-generator
+# sdfadsfa
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](#license)
-[![GitHub Contributing](https://img.shields.io/badge/Contributing-Email me for questions about contributing.-yellow.svg)](https://github.com/avaarm/Readme-generator#installation)
-[![GitHub Tests](https://img.shields.io/badge/tests-npm test-pink.svg)](https://github.com/avaarm/Readme-generator#installation)
+[![GitHub Contributing](https://img.shields.io/badge/Contributing-asdfas-yellow.svg)](sdfadsf)
+[![GitHub Tests](https://img.shields.io/badge/tests-asdfa-pink.svg)](sdfadsf)
    
 ## Description
     
-This is a project using the command-line interface to cr
+sdfasdf
     
 ## Table of Contents 
     
@@ -28,12 +28,12 @@ This is a project using the command-line interface to cr
 To install necessary dependencies, run the following command:
     
     
-npm i
+dsfaf
     
     
 ## Usage
     
-This is a project using the command-line interface to cr
+sdfasdf
     
 ## License
     
@@ -41,17 +41,17 @@ This project is licensed under the MIT license.
       
 ## Contributing
     
-Email me for questions about contributing.
+asdfas
     
 ## Tests
     
 To run tests, run the following command:
     
     
-npm test
+asdfa
     
     
 ## Questions
     
-If you have any questions about the repo, open an issue or contact [avaarm](https://github.com/avaarm) directly at avaarm95@gmail.com.
+If you have any questions about the repo, open an issue or contact [sadfa](https://github.com/avaarm) directly at sdfadf.
         
