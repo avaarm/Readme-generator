@@ -57,7 +57,7 @@ npm test
 
 ## Questions
     
-If you have any questions about the repo, open an issue or contact [Armenuhi] directly at [my email](mailto:avaarm95@gmail.com).
+If you have any questions about the repo, open an issue or contact me directly at [my email](mailto:avaarm95@gmail.com).
 
 
         

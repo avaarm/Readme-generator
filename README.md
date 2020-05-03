@@ -1,7 +1,7 @@
 
 # Readme.md Generator
 [![GitHub License](https://img.shields.io/badge/License-blue.svg)](Develop/License.md)
-[![GitHub Example](https://img.shields.io/badge/Example-blue.svg)](https://github.com/avaarm/Readme-generator/blob/master/README.md)
+[![GitHub Example](https://img.shields.io/badge/Example-blue.svg)](https://github.com/avaarm/Readme-generator/blob/master/Develop/README-generated.md)
 
    
 ## Description
