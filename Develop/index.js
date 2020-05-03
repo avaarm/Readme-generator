@@ -9,7 +9,7 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const util = require("util");
 // const axios = require("axios"); // delete in you don't use the badge generator npm packages
-//Your application should prompt the user for information such as their name, location, bio, LinkedIn URL, and GitHub URL. Feel free to add any additional prompts you think of.
+
 
 // wrapping fs.writeFile in a promise
 const writeFileAsync = util.promisify(fs.writeFile);
@@ -17,6 +17,11 @@ const writeFileAsync = util.promisify(fs.writeFile);
 // Using inquirer and prompting for questions
 inquirer
   .prompt([
+    {
+      type: "input",
+      message: "What is your first name?",
+      name: "firstName"
+    },
     {
       type: "input",
       message: "What is your Github Username?",
@@ -40,7 +45,7 @@ inquirer
     {
       type: "input",
       message:
-        "Describe your project in a few sentences, including: The name of the project, inrpitation, and use",
+        "Describe your project in a few sentences, including: The name of the project, inspiration, and use. ",
       name: "projectDescribe"
     },
     {
@@ -71,6 +76,12 @@ inquirer
       message:
         "What does the user need to know about contributing to the repo?",
       name: "repoContribute"
+    },
+    {
+      type: "input",
+      message:
+        "What is the version of this application?",
+      name: "version"
     }
   ])
 
@@ -85,13 +96,16 @@ inquirer
       dependencies,
       tests,
       repoUse,
-      repoContribute
+      repoContribute,
+      version,
+      firstName,
     } = data;
-    const template = `
+    const template = 
+`
 
 # ${data.projectName}
-[![GitHub License](https://img.shields.io/badge/license-${data.license}-blue.svg)](#license)
-[![GitHub Contributing](https://img.shields.io/badge/Contributing-${data.repoContribute}-yellow.svg)](${data.projectURL})
+[![GitHub License](https://img.shields.io/badge/license-${data.license}-blue.svg)](${data.projectURL}))
+[![GitHub Version](https://img.shields.io/badge/Contributing-${data.version}-yellow.svg)](${data.projectURL})
 [![GitHub Tests](https://img.shields.io/badge/tests-${data.tests}-pink.svg)](${data.projectURL})
    
 ## Description
@@ -111,6 +125,8 @@ ${data.projectDescribe}
 * [Tests](#tests)
     
 * [Questions](#questions)
+
+* [Version](#questions)
     
 ## Installation
     
@@ -139,10 +155,15 @@ To run tests, run the following command:
     
 ${data.tests}
     
-    
+## Version
+
+${data.tests}
+
 ## Questions
     
-If you have any questions about the repo, open an issue or contact [${data.githubUsername}](https://github.com/avaarm) directly at ${data.githubEmail}.
+If you have any questions about the repo, open an issue or contact [${data.firstName}] directly at [${data.githubEmail}](https://github.com/avaarm).
+
+
         
 `;
     writeFileAsync("README.md", template).catch(err => {
@@ -150,7 +171,7 @@ If you have any questions about the repo, open an issue or contact [${data.githu
     });
   });
 
-// Below is what was intially instructed and I'm essentially doing the same, but a little differently
+
 // const questions = [
 
 // ];
@@ -161,14 +182,3 @@ If you have any questions about the repo, open an issue or contact [${data.githu
 
 // }
 
-// init();
-
-// * At least one badge - ?
-// * Project title - done
-// * Description - done
-// * Table of Contents - need to check ?
-// * Installation - done
-// * Usage - done
-// * License- done
-// * Contributing - done
-// * Tests - done

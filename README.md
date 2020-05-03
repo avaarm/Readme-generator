@@ -1,12 +1,11 @@
 
+# Readme.md Generator
+[![GitHub License](https://img.shields.io/badge/license-blue.svg)](#license)
 
-# Readme-generator
-[![GitHub License](https://img.shields.io/badge/license-APACHE-2.0-blue.svg)](#license)
-[![GitHub Tests](https://img.shields.io/badge/tests-npm-test-pink.svg)](https://github.com/avaarm/Readme-generator#installation)
    
 ## Description
     
- This is a project using the command-line interface to create a Readme.md file for the user. It contains necessary sections and guides the user to respond  to these. 
+sdfasdf
     
 ## Table of Contents 
     
@@ -14,7 +13,7 @@
 
 * [Usage](#usage)
     
-* [License](#license)
+* [License](#License)
     
 * [Contributing](#contributing)
     
@@ -27,30 +26,31 @@
 To install necessary dependencies, run the following command:
     
     
-    npm i
+dsfaf
     
     
 ## Usage
     
- This is a project using the command-line interface to create a Readme.md file for the user. It contains necessary sections and guides the user to respond  to these. 
+sdfasdf
     
 ## License
     
-This project is licensed under the APACHE 2.0 license.
+This project is licensed under the MIT license.
       
 ## Contributing
     
-Email me for questions about contributing.
+asdfas
     
 ## Tests
     
 To run tests, run the following command:
     
     
-    npm test
+asdfa
     
     
 ## Questions
     
-    If you have any questions about the repo, open an issue or contact [avaarm](https://github.com/avaarm) directly at avaarm95@gmail.com.
+If you have any questions about the repo, open an issue or contact [sadfa](https://github.com/avaarm) directly at sdfadf.
         
+
