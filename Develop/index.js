@@ -2,8 +2,6 @@
 // npm i  (to make )
 // npm install inquirer
 
-// Badge implementation (https://github.com/nebrelbug/badge-generator/blob/master/index.js)
-
 // Putting together dependencies
 const fs = require("fs");
 const inquirer = require("inquirer");
@@ -166,7 +164,7 @@ If you have any questions about the repo, open an issue or contact [${data.first
 
         
 `;
-    writeFileAsync("README.md", template).catch(err => {
+    writeFileAsync("README-generated.md", template).catch(err => {
       console.log(err);
     });
   });
