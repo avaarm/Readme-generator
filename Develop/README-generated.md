@@ -7,7 +7,7 @@
    
 ## Description
     
-The Readme.md Generator is an application meant for developers who are creating a lot of repositories and need a quick way to create a standardized readme.md file. 
+The Readme.md Generator is an application meant for developers who are creating many repositories and need a quick way to create a standardized readme.md file. 
     
 ## Table of Contents 
     
@@ -25,10 +25,10 @@ The Readme.md Generator is an application meant for developers who are creating 
 
 * [Version](#questions)
     
+
 ## Installation
     
-To install necessary dependencies, run the following command:
-    
+To install necessary dependencies, run the following command: 
     
 npm i
     
@@ -48,7 +48,6 @@ Please email me (Armenuhi) at the email below for any contributing related quest
 ## Tests
     
 To run tests, run the following command:
-    
     
 npm test
     
