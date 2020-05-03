@@ -1,9 +1,9 @@
 
 
 # Readme.md-Generataor
-[![GitHub License](https://img.shields.io/badge/License-MIT-blue.svg)](License.md))
+[![GitHub License](https://img.shields.io/badge/License-MIT-blue.svg)](License.md)
 [![GitHub Version](https://img.shields.io/badge/Contributing-1.0.0-yellow.svg)](https://github.com/avaarm/Readme-generator)
-[![GitHub Tests](https://img.shields.io/badge/tests-npm test-pink.svg)](https://github.com/avaarm/Readme-generator)
+
    
 ## Description
     

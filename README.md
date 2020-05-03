@@ -17,7 +17,7 @@ This is a command line application that creates a Readme.md file for a repositor
 ## Links
 
 * [A video of the application](https://drive.google.com/file/d/1Yn4Yxy6xHTcAJIkuDNSL-xx0qdovHTix/view)
-* A [readme-generated.md](https://github.com/avaarm/Readme-generator/blob/master/README.md) file generated using this application 
+* A [readme-generated.md](https://github.com/avaarm/Readme-generator/blob/master/Develop/README-generated.md) file generated using this application 
     
     
 ## Usage
