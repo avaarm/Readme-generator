@@ -2,17 +2,17 @@
 // npm i  (to make )
 // npm install inquirer
 
-// Putting together dependencies
+
 const fs = require("fs");
 const inquirer = require("inquirer");
 const util = require("util");
-// const axios = require("axios"); // delete in you don't use the badge generator npm packages
 
 
-// wrapping fs.writeFile in a promise
+
+
 const writeFileAsync = util.promisify(fs.writeFile);
 
-// Using inquirer and prompting for questions
+
 inquirer
   .prompt([
     {
@@ -102,7 +102,7 @@ inquirer
 `
 
 # ${data.projectName}
-[![GitHub License](https://img.shields.io/badge/license-${data.license}-blue.svg)](${data.projectURL}))
+[![GitHub License](https://img.shields.io/badge/License-${data.license}-blue.svg)](License.md))
 [![GitHub Version](https://img.shields.io/badge/Contributing-${data.version}-yellow.svg)](${data.projectURL})
 [![GitHub Tests](https://img.shields.io/badge/tests-${data.tests}-pink.svg)](${data.projectURL})
    
@@ -159,7 +159,7 @@ ${data.tests}
 
 ## Questions
     
-If you have any questions about the repo, open an issue or contact [${data.firstName}] directly at [${data.githubEmail}](https://github.com/avaarm).
+If you have any questions about the repo, open an issue or contact [${data.firstName}] directly at [my email](mailto:${data.githubEmail}).
 
 
         
@@ -170,13 +170,5 @@ If you have any questions about the repo, open an issue or contact [${data.first
   });
 
 
-// const questions = [
 
-// ];
-// function writeToFile(fileName, data) {
-
-// }
-// function init() {
-
-// }
 
